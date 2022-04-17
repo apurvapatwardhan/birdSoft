@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #151b54;
+    border-bottom: 2px solid #7777a8;
+}
+
+.header_routes {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.header_routes a {
+  text-decoration: none;
+}

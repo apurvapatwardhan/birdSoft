@@ -1,0 +1,30 @@
+.footer {
+    width: 33%;
+    border: 1px solid black;
+    justify-self: center;
+    position: relative;
+    bottom: 2em;
+    text-overflow: ellipsis;
+    /* border-left: 10px solid green; */
+    display: flex;
+    background-color: #151B54;
+}
+
+.rect {
+    border-left: 2px solid black;
+    width: 30%;
+    transform: skewX(20deg);
+    z-index: 4;
+    position: relative;
+    background-color: #151B54;
+    position: relative;
+    right: 2em;
+    bottom: 1px;
+    border-top: 1px solid black;
+}
+
+.footer .text {
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #151B54;
+}
