@@ -8,6 +8,8 @@
     /* border-left: 10px solid green; */
     display: flex;
     background-color: #151B54;
+    clip-path: polygon(0% 0%, 10% 100%, 100% 100%, 100% 0%);
+    justify-content: center;
 }
 
 .rect {
@@ -27,4 +29,13 @@
     white-space: nowrap;
     overflow: hidden;
     background-color: #151B54;
+}
+
+.comp {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comp div {
+    padding: 5px;
 }

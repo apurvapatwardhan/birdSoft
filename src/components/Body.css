@@ -1,15 +1,51 @@
 .body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    background-color: #151B54;
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/13/12/38/bitcoin-3396302__340.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-x: 10em;
+}
+
+.body__left {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    justify-content: space-evenly;
+    justify-self: center;
+    background-color: #8484ad;
+}
+
+.body__left button {
+    border: none;
+    background: none;
 }
 
 .body__right {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
 }
-
+.body__mid {
+    
+}
 .white {
     color: white;
+}
+
+.body__mid div {
+    
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,20% 100%);
+    background: #040C17;
+    opacity: 0.3;
+    /* border: 1px solid white; */
+    width: 10%;
+
+}
+
+.body__mid div button {
+    padding: 6px;
+    border: 1px solid white;
+    
 }
